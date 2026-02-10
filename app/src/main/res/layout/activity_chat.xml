@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rootView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#000000"
+    android:fitsSystemWindows="true">
+
+    <LinearLayout
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:background="#4CAF50"
+        android:gravity="center_vertical"
+        android:paddingStart="10dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnBack"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:text="←"
+            android:textColor="#FFF"
+            android:backgroundTint="#00000000"
+            style="?android:attr/borderlessButtonStyle"/>
+
+        <TextView
+            android:text="CHAT INTELIGENTE"
+            android:textColor="#FFF"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:layout_marginStart="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+    <ScrollView
+        android:id="@+id/scrollViewChat"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:fillViewport="true"
+        android:padding="10dp"
+        android:transcriptMode="alwaysScroll">
+
+        <LinearLayout
+            android:id="@+id/chatLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingBottom="10dp"/>
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/inputArea"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="5dp"
+        android:background="#222">
+
+        <EditText
+            android:id="@+id/etMessage"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:hint="Escribe aquí..."
+            android:textColor="#000000"
+            android:textColorHint="#888888"
+            android:background="#FFFFFF"
+            android:minHeight="48dp"
+            android:padding="10dp"
+            android:inputType="textMultiLine|textCapSentences"
+            android:maxLines="4"/>
+
+        <Button
+            android:id="@+id/btnSend"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:text=">"
+            android:textColor="#FFF"
+            android:textSize="20sp"
+            android:backgroundTint="#4CAF50"
+            android:layout_marginStart="5dp"/>
+    </LinearLayout>
+
+</LinearLayout>
