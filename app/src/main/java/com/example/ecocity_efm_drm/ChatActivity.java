@@ -34,7 +34,7 @@ public class ChatActivity extends AppCompatActivity {
     private static final String API_KEY = "AIzaSyC1zxSx6U5KRuv0nw5Fh1-VEQDnUyWhWyc";
 
     // CAMBIO IMPORTANTE: Usamos "gemini-pro" en lugar de flash. Es el modelo más compatible.
-    private static final String URL_GEMINI = "https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent?key=" + API_KEY;
+    private static final String URL_GEMINI = "https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=" + API_KEY;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
