@@ -11,9 +11,9 @@ import android.widget.Toast;
 // --- ESTOS SON LOS IMPORTS IMPORTANTES ---
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
-import androidx.fragment.app.Fragment; // <--- ESTE ES EL QUE NECESITAS
+import androidx.fragment.app.Fragment;
 import androidx.appcompat.widget.SwitchCompat;
-// -----------------------------------------
+
 
 public class SettingsFragments extends Fragment {
 
