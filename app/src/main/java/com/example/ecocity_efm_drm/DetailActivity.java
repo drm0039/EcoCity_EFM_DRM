@@ -11,7 +11,7 @@ public class DetailActivity extends AppCompatActivity {
 
     private int index;
     private EditText etTitulo, etDesc;
-    private ImageView img;
+    ImageView img;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
