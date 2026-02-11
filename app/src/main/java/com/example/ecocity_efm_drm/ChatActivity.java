@@ -40,7 +40,7 @@ public class ChatActivity extends AppCompatActivity {
                     "--- Fin de instrucciones ---\n\n";
 
 
-    private static final String API_KEY = "AIzaSyC1zxSx6U5KRuv0nw5Fh1-VEQDnUyWhWyc";
+    private static final String API_KEY = "Aqui va la API que esta en el comentario de la tarea";
 
 
     private static final String URL_GEMINI = "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=";
