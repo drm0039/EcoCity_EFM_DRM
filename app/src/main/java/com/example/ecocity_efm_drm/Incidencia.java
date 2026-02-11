@@ -1,6 +1,7 @@
 package com.example.ecocity_efm_drm;
 
 import android.graphics.Bitmap;
+
 import com.google.android.gms.maps.model.LatLng;
 
 public class Incidencia {
