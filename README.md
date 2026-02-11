@@ -58,6 +58,12 @@ private static final String URL_GEMINI = "[https://generativelanguage.googleapis
 
 ---
 
+## API
+
+AIzaSyC1zxSx6U5KRuv0nw5Fh1-VEQDnUyWhWyc
+
+---
+
 ## Autores
 
 ** Nombre: 
